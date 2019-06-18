@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 400px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+
+    <!-- <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-4">
+          <div class="card-header" style="background-color: blue; color: white">Data table</div>
+          <div class="card-body">
+            <table class="data table-sm table-hover" id="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Question 1</th>
+                  <th scope="col">Question 2</th>
+                  <th scope="col">Question 3</th>
+                  <th scope="col">Question 4</th>
+                </tr>
+              </thead>
+              <dbody>
+              </dbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="data"></div>
+    <div id="data1"></div>
+
+    <div id="inputform" class="card mb-4">
+      <div class="card-header" style="background-color: blue; color: white">Input Data</div>
+      <div class="card-body">
+    <form>
+      <div class="form-group">
+        <label for="q1input">Question1</label>
+        <input class="form-control" id="q1input" placeholder="?" type="text">
+      </div>
+      <div class="form-group">
+        <label for="q2input">Question2</label>
+        <input class="form-control" id="q2input" placeholder="?" type="text">
+      </div>
+      <div class="form-group">
+        <label for="q3input">Question3</label>
+        <input class="form-control" id="q3input" placeholder="?" type="text">
+      </div>
+      <div class="form-group">
+        <label for="q4input">Question4</label>
+        <input class="form-control" id="q4input" placeholder="?" type="text">
+      </div>
+      <button class="btn btn-primary float-right" id="submit-btn">Submit</button>
+    </form> -->
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8A7dw2S0hc2FbTfndcG85pXEfBR9GJnk&callback=initMap">
+      </script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="logic.js"></script>
+  
+  </body>
+</html>
